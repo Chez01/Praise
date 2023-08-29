@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(253, 249, 249);
+}
+.container{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.info-container{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: start;
+    margin: 20px 0 0 40px;
+}
+.info-container p{
+    display: block;
+}
+.info-container img{
+    width: 20px;
+}
+.info-container h1{
+    font-weight: 700;
+}
+.btn{
+    padding: 20px  60px 20px 60px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 90px 0 0 0;
+    background-color: white;
+    border: 0.2%;
+    border-radius: 20px;
+}
+.btn:hover{
+    opacity: 70%;
+}
+
+
+
+
+
+
+
+.img-container img{
+    width: 100%;
+    margin: 50px 0 0 0;
+    border-radius: 250px 0 0 250px;
+}
+
+
+
+
+.dwn-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    margin-top: 100px;
+}
+.dwn-container img{
+    width: 30px;
+}
+.dent-info a, .oral-info a, .brid-info a, .teeth-info a{
+    color: white;
+    font-weight: 700;
+}
+.dent-info, .oral-info, .brid-info, .teeth-info{
+    background-color: orangered;
+    margin: 0 50px 0 50px ;
+    padding: 30px 30px 30px 30px;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+}
